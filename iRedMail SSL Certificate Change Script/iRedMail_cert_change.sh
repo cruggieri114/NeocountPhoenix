@@ -1,3 +1,21 @@
+#
+#         _/|       |\_
+#        /  |       |  \
+#       |    \     /    |
+#       |  \ /     \ /  |
+#       | \  |     |  / |
+#       | \ _\_/^\_/_ / |
+#       |    --\//--    |                         Script to replace SSL certificate for iRedMail
+#        \_  \     /  _/                                Written by Chris Ruggieri
+#          \__  |  __/                                   
+#             \ _ /
+#            _/   \_   
+#           / _/|\_ \  
+#            /  |  \   
+#   
+#Directions: Place the certificate.pfx file into your cert staging folder (that will be your "/home/path/to/your/cert") I user /etc/ssl/certstaging Then sudo run this
+#
+#
 #! /bin/bash
 
 date +"%Y"
